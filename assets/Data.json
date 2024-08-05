@@ -1,65 +1,191 @@
 [
-  {"position": "1",
+  {
+    "position": "1",
     "name": "Mercury",
     "image": "http://space-facts.com/wp-content/uploads/mercury-transparent.png",
+    "planetImage": "assets/images/mercury.jpg",
     "velocity": "47",
     "distance": "58",
-    "description": "Mercury is the closest planet to the Sun and due to its proximity it is not easily seen except during twilight. For every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965 it was thought that the same side of Mercury constantly faced the Sun. Thirteen times a century Mercury can be observed from the Earth passing across the face of the Sun in an event called a transit, the next will occur on the 9th May 2016."
+    "description": "Mercury is the closest planet to the Sun and due to its proximity it is not easily seen except during twilight. For every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965 it was thought that the same side of Mercury constantly faced the Sun. Thirteen times a century Mercury can be observed from the Earth passing across the face of the Sun in an event called a transit, the next will occur on the 9th May 2016.",
+    "facts": [
+      "Mercury is the smallest planet in our solar system. It is only slightly larger than Earth's Moon.",
+      "Mercury is the closest planet to the Sun, with an average distance of about 58 million kilometers (36 million miles).",
+      "Mercury has the shortest orbital period of all the planets in the solar system, completing one orbit around the Sun in just 88 Earth days.",
+      "Mercury experiences extreme temperature fluctuations. During the day, temperatures can soar to about 430°C (800°F), while at night, they can plummet to -180°C (-290°F).",
+      "Mercury has a very thin atmosphere composed mainly of oxygen, sodium, hydrogen, helium, and potassium. This thin atmosphere means it cannot retain heat, contributing to its extreme temperature changes.",
+      "The surface of Mercury is covered with craters, similar to the Moon. The largest crater, Caloris Basin, is about 1,550 kilometers (960 miles) in diameter.",
+      "Mercury has no moons or rings.",
+      "Despite its small size, Mercury has a magnetic field, although it is only about 1% as strong as Earth's.",
+      "A single day on Mercury (one full rotation on its axis) takes about 59 Earth days.",
+      "Despite being closer to the Sun, Mercury is not always the closest planet to Earth. Due to the elliptical nature of the orbits, Mercury can sometimes be closer to Earth than Venus."
+    ]
   },
-  {"position": "2",
+  {
+    "position": "2",
     "name": "Venus",
     "image": "http://space-facts.com/wp-content/uploads/venus-transparent.png",
+    "planetImage": "assets/images/venus.jpg",
     "velocity": "35",
     "distance": "108",
-    "description": "Venus is the second planet from the Sun and is the second brightest object in the night sky after the Moon. Named after the Roman goddess of love and beauty, Venus is the second largest terrestrial planet and is sometimes referred to as the Earth’s sister planet due the their similar size and mass. The surface of the planet is obscured by an opaque layer of clouds made up of sulphuric acid."
+    "description": "Venus is the second planet from the Sun and is the second brightest object in the night sky after the Moon. Named after the Roman goddess of love and beauty, Venus is the second largest terrestrial planet and is sometimes referred to as the Earth’s sister planet due to their similar size and mass. The surface of the planet is obscured by an opaque layer of clouds made up of sulphuric acid.",
+    "facts": [
+      "Venus is often called Earth's twin because it's similar in size and structure.",
+      "Despite not being the closest to the Sun, Venus is the hottest planet due to its thick atmosphere, which traps heat.",
+      "Venus rotates on its axis in the opposite direction to most planets in the solar system.",
+      "A day on Venus (one full rotation) is longer than a year (one full orbit around the Sun).",
+      "Venus has no moons or rings.",
+      "Its atmosphere is composed mainly of carbon dioxide, with clouds of sulfuric acid, making it inhospitable.",
+      "The surface pressure on Venus is about 92 times that of Earth's at sea level.",
+      "Venus has many volcanoes, some of which may still be active.",
+      "Venus is the brightest natural object in the night sky after the Moon.",
+      "Venus has no significant magnetic field."
+    ]
   },
-  {"position": "3",
+  {
+    "position": "3",
     "name": "Earth",
     "image": "http://space-facts.com/wp-content/uploads/earth-transparent.png",
+    "planetImage": "assets/images/earth.jpg",
     "velocity": "29",
     "distance": "149",
-    "description": "Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life."
+    "description": "Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life.",
+    "facts": [
+      "Earth is the only known planet to support life.",
+      "About 71% of Earth's surface is covered by water.",
+      "Earth's atmosphere is composed mainly of nitrogen and oxygen.",
+      "Earth has a strong magnetic field, protecting it from solar radiation.",
+      "Earth has one natural satellite, the Moon.",
+      "Earth experiences seasons due to its axial tilt.",
+      "Earth has active plate tectonics, causing earthquakes and volcanic activity.",
+      "Earth has an atmosphere rich in oxygen, crucial for life.",
+      "Earth hosts a vast diversity of life forms in various ecosystems.",
+      "Human activities are significantly impacting Earth's climate and ecosystems."
+    ]
   },
-  {"position": "4",
+  {
+    "position": "4",
     "name": "Mars",
     "image": "http://space-facts.com/wp-content/uploads/mars-transparent.png",
+    "planetImage": "assets/images/mars.jpg",
     "velocity": "24",
     "distance": "227",
-    "description": "Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. Mars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide."
+    "description": "Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. Mars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.",
+    "facts": [
+      "Mars is known as the Red Planet due to its reddish appearance, caused by iron oxide (rust) on its surface.",
+      "Mars has a thin atmosphere composed mostly of carbon dioxide.",
+      "Home to Olympus Mons, the tallest volcano and highest known mountain in the solar system.",
+      "Mars has two small moons, Phobos and Deimos.",
+      "Mars is a prime candidate in the search for past or present microbial life.",
+      "Mars experiences seasons due to its axial tilt.",
+      "Evidence suggests that Mars has water ice, especially at its poles.",
+      "Mars is known for its large dust storms, which can cover the entire planet.",
+      "Numerous rovers have been sent to Mars to explore its surface, including the famous Curiosity and Perseverance rovers.",
+      "Mars has a massive canyon system, Valles Marineris, which is over 4,000 kilometers long."
+    ]
   },
-  {"position": "5",
+  {
+    "position": "5",
     "name": "Jupiter",
     "image": "http://space-facts.com/wp-content/uploads/jupiter-transparent.png",
+    "planetImage": "assets/images/jupiter.jpg",
     "velocity": "13",
     "distance": "778",
-    "description": "The planet Jupiter is the fifth planet out from the Sun, and is two and a half times more massive than all the other planets in the solar system combined. It is made primarily of gases and is therefore known as a “gas giant”."
+    "description": "The planet Jupiter is the fifth planet out from the Sun, and is two and a half times more massive than all the other planets in the solar system combined. It is made primarily of gases and is therefore known as a “gas giant”.",
+    "facts": [
+      "Jupiter is the largest planet in the solar system, with a mass more than 300 times that of Earth.",
+      "Home to the Great Red Spot, a giant storm that has been raging for centuries.",
+      "Jupiter has at least 79 moons, with the four largest being the Galilean moons: Io, Europa, Ganymede, and Callisto.",
+      "Jupiter has the strongest magnetic field of any planet in the solar system.",
+      "Jupiter has the shortest day of all the planets, with a rotation period of about 10 hours.",
+      "Jupiter is composed mostly of hydrogen and helium.",
+      "Jupiter has a faint ring system discovered in 1979 by the Voyager 1 spacecraft.",
+      "Jupiter experiences intense auroras around its poles, much like Earth.",
+      "Ganymede, one of Jupiter's moons, is the largest moon in the solar system.",
+      "Jupiter's strong magnetic field creates intense radiation belts."
+    ]
   },
-  {"position": "6",
+  {
+    "position": "6",
     "name": "Saturn",
     "image": "http://space-facts.com/wp-content/uploads/saturn-transparent.png",
+    "planetImage": "assets/images/saturn.jpg",
     "velocity": "9",
     "distance": "1426",
-    "description": "Saturn is the sixth planet from the Sun and the most distant that can be seen with the naked eye. Saturn is the second largest planet and is best known for its fabulous ring system that was first observed in 1610 by the astronomer Galileo Galilei. Like Jupiter, Saturn is a gas giant and is composed of similar gasses including hydrogen, helium and methane."
+    "description": "Saturn is the sixth planet from the Sun and the most distant that can be seen with the naked eye. Saturn is the second largest planet and is best known for its fabulous ring system that was first observed in 1610 by the astronomer Galileo Galilei. Like Jupiter, Saturn is a gas giant and is composed of similar gases including hydrogen, helium and methane.",
+    "facts": [
+      "Saturn is famous for its prominent ring system, made mostly of ice and rock particles.",
+      "Saturn is a gas giant composed primarily of hydrogen and helium.",
+      "Saturn has 83 confirmed moons, with Titan being the largest.",
+      "Saturn is the least dense of all the planets; it would float if placed in a large enough body of water.",
+      "Saturn has extremely strong winds, with speeds reaching up to 1,800 kilometers per hour (1,118 miles per hour).",
+      "Saturn's north pole has a unique hexagon-shaped storm.",
+      "Saturn has a short day, with a rotation period of about 10.7 hours.",
+      "Saturn has a magnetic field, although it is weaker than Jupiter's.",
+      "The Cassini spacecraft provided detailed information about Saturn, its rings, and its moons.",
+      "Saturn experiences seasons due to its axial tilt."
+    ]
   },
-  {"position": "7",
+  {
+    "position": "7",
     "name": "Uranus",
     "image": "http://space-facts.com/wp-content/uploads/uranus-transparent.png",
+    "planetImage": "assets/images/uranus.jpg",
     "velocity": "6",
     "distance": "2870",
-    "description": "Uranus is the seventh planet from the Sun. While being visible to the naked eye, it was not recognised as a planet due to its dimness and slow orbit. Uranus became the first planet discovered with the use of a telescope. Uranus is tipped over on its side with an axial tilt of 98 degrees. It is often described as “rolling around the Sun on its side.”"
+    "description": "Uranus is the seventh planet from the Sun. While being visible to the naked eye, it was not recognized as a planet due to its dimness and slow orbit. Uranus became the first planet discovered with the use of a telescope. Uranus is tipped over on its side with an axial tilt of 98 degrees. It is often described as “rolling around the Sun on its side.”",
+    "facts": [
+      "Uranus has an extreme axial tilt of 98 degrees, causing it to rotate on its side.",
+      "Uranus is classified as an ice giant, with a composition of water, methane, and ammonia ices.",
+      "Uranus has a faint ring system, discovered in 1977.",
+      "Uranus has 27 known moons, with Titania being the largest.",
+      "Uranus is one of the coldest planets in the solar system.",
+      "Uranus's blue-green color is due to methane in its atmosphere.",
+      "Uranus takes about 84 Earth years to complete one orbit around the Sun.",
+      "The Voyager 2 spacecraft is the only mission to have visited Uranus, in 1986.",
+      "Uranus has an off-center magnetic field, weaker than those of Jupiter and Saturn.",
+      "Uranus experiences extreme seasonal variations due to its axial tilt."
+    ]
   },
-  {"position": "8",
+  {
+    "position": "8",
     "name": "Neptune",
     "image": "http://space-facts.com/wp-content/uploads/neptune-transparent.png",
+    "planetImage": "assets/images/neptune.jpg",
     "velocity": "5",
     "distance": "4498",
-    "description": "Neptune is the eighth planet from the Sun making it the most distant in the solar system. This gas giant planet may have formed much closer to the Sun in early solar system history before migrating to its present position."
+    "description": "Neptune is the eighth planet from the Sun making it the most distant in the solar system. This gas giant planet may have formed much closer to the Sun in early solar system history before migrating to its present position.",
+    "facts": [
+      "Neptune is known for its deep blue color, caused by methane in its atmosphere.",
+      "Neptune has the strongest winds in the solar system, with speeds exceeding 2,000 kilometers per hour (1,243 miles per hour).",
+      "Neptune has a storm similar to Jupiter's Great Red Spot, called the Great Dark Spot.",
+      "Neptune is an ice giant with a composition of water, methane, and ammonia ices.",
+      "Neptune has a faint ring system.",
+      "Neptune has 14 known moons, with Triton being the largest.",
+      "Triton, Neptune's largest moon, orbits in the opposite direction to Neptune's rotation.",
+      "The Voyager 2 spacecraft is the only mission to have visited Neptune, in 1989.",
+      "Neptune takes about 165 Earth years to complete one orbit around the Sun.",
+      "Neptune has a complex and irregular magnetic field."
+    ]
   },
-  {"position": "9",
+  {
+    "position": "9",
     "name": "Sun",
     "image": "http://pngimg.com/uploads/sun/sun_PNG13424.png",
+    "planetImage": "assets/images/sun.jpg",
     "velocity": "220",
     "distance": "0",
-    "description": "The Sun (or Sol), is the star at the centre of our solar system and is responsible for the Earth’s climate and weather. The Sun is an almost perfect sphere with a difference of just 10km in diameter between the poles and the equator. The average radius of the Sun is 695,508 km (109.2 x that of the Earth) of which 20–25% is the core."
+    "description": "The Sun (or Sol), is the star at the center of our solar system and is responsible for the Earth’s climate and weather. The Sun is an almost perfect sphere with a difference of just 10km in diameter between the poles and the equator. The average radius of the Sun is 695,508 km (109.2 x that of the Earth) of which 20–25% is the core.",
+    "facts": [
+      "The Sun is a star at the center of the solar system, composed primarily of hydrogen and helium.",
+      "The Sun provides the energy necessary for life on Earth through nuclear fusion in its core.",
+      "The Sun's gravitational pull keeps the planets in orbit around it.",
+      "The Sun has several layers, including the core, radiative zone, convective zone, photosphere, chromosphere, and corona.",
+      "Sunspots are cooler regions on the Sun's surface caused by magnetic activity.",
+      "The Sun emits solar flares, which are bursts of radiation caused by magnetic energy release.",
+      "The Sun emits a stream of charged particles known as the solar wind.",
+      "The Sun is about halfway through its life cycle, currently in the main sequence phase.",
+      "The Sun contains about 99.86% of the total mass of the solar system.",
+      "The Sun's energy output is about 386 billion billion megawatts, providing light and heat to the planets."
+    ]
   }
 ]

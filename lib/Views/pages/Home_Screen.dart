@@ -74,33 +74,40 @@ class _HomeScreenState extends State<HomeScreen> {
               itemBuilder: (context, index) {
                 var planet = data[index];
                 return Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(24)),
-                      border: Border.all(
-                        color: Colors.grey,
+                  padding: EdgeInsets.all(8.0),
+                  child: GestureDetector(
+                    onTap: () {
+                      ;
+                      Navigator.pushNamed(context, "DetailScreen",
+                          arguments: planet);
+                    },
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(24)),
+                        border: Border.all(
+                          color: Colors.grey,
+                        ),
                       ),
-                    ),
-                    child: Row(
-                      // mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        SizedBox(
-                          width: 150,
-                          child: Image(
-                            image: NetworkImage(
-                              planet["image"],
+                      child: Row(
+                        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          SizedBox(
+                            width: 150,
+                            child: Image(
+                              image: NetworkImage(
+                                planet["image"],
+                              ),
                             ),
                           ),
-                        ),
-                        Text(
-                          planet["name"],
-                          style: const TextStyle(
-                              color: Colors.grey,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 22),
-                        ),
-                      ],
+                          Text(
+                            planet["name"],
+                            style: const TextStyle(
+                                color: Colors.grey,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 22),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 );

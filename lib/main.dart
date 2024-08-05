@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'Providers/Theme_Povider.dart';
+import 'Views/pages/Detail_Screen.dart';
 import 'Views/pages/Home_Screen.dart';
 
 late bool saveIntroScreen;
@@ -38,8 +39,9 @@ class MyApp extends StatelessWidget {
           initialRoute: (saveIntroScreen) ? "SplashScreen" : "IntroScreen",
           routes: {
             '/': (context) => const HomeScreen(),
-            'SplashScreen': (context) => const SplashScreen(),
             'IntroScreen': (context) => const IntroScreen(),
+            'SplashScreen': (context) => const SplashScreen(),
+            'DetailScreen': (context) => const DetailScreen(),
           },
         );
       },
