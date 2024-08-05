@@ -2,7 +2,7 @@
   {
     "position": "1",
     "name": "Mercury",
-    "image": "http://space-facts.com/wp-content/uploads/mercury-transparent.png",
+    "image": "assets/images/mercury_logo.jpg",
     "planetImage": "assets/images/mercury.jpg",
     "velocity": "47",
     "distance": "58",
@@ -23,7 +23,7 @@
   {
     "position": "2",
     "name": "Venus",
-    "image": "http://space-facts.com/wp-content/uploads/venus-transparent.png",
+    "image": "assets/images/venus_logo.jpg",
     "planetImage": "assets/images/venus.jpg",
     "velocity": "35",
     "distance": "108",
@@ -44,7 +44,7 @@
   {
     "position": "3",
     "name": "Earth",
-    "image": "http://space-facts.com/wp-content/uploads/earth-transparent.png",
+    "image": "assets/images/earth_logo.jpg",
     "planetImage": "assets/images/earth.jpg",
     "velocity": "29",
     "distance": "149",
@@ -65,7 +65,7 @@
   {
     "position": "4",
     "name": "Mars",
-    "image": "http://space-facts.com/wp-content/uploads/mars-transparent.png",
+    "image": "assets/images/mars_logo.jpg",
     "planetImage": "assets/images/mars.jpg",
     "velocity": "24",
     "distance": "227",
@@ -86,7 +86,7 @@
   {
     "position": "5",
     "name": "Jupiter",
-    "image": "http://space-facts.com/wp-content/uploads/jupiter-transparent.png",
+    "image": "assets/images/jupiter_logo.jpg",
     "planetImage": "assets/images/jupiter.jpg",
     "velocity": "13",
     "distance": "778",
@@ -107,7 +107,7 @@
   {
     "position": "6",
     "name": "Saturn",
-    "image": "http://space-facts.com/wp-content/uploads/saturn-transparent.png",
+    "image": "assets/images/saturn_logo.jpg",
     "planetImage": "assets/images/saturn.jpg",
     "velocity": "9",
     "distance": "1426",
@@ -128,7 +128,7 @@
   {
     "position": "7",
     "name": "Uranus",
-    "image": "http://space-facts.com/wp-content/uploads/uranus-transparent.png",
+    "image": "assets/images/uranus_logo.jpg",
     "planetImage": "assets/images/uranus.jpg",
     "velocity": "6",
     "distance": "2870",
@@ -149,7 +149,7 @@
   {
     "position": "8",
     "name": "Neptune",
-    "image": "http://space-facts.com/wp-content/uploads/neptune-transparent.png",
+    "image": "assets/images/neptune_logo.jpg",
     "planetImage": "assets/images/neptune.jpg",
     "velocity": "5",
     "distance": "4498",
@@ -170,7 +170,7 @@
   {
     "position": "9",
     "name": "Sun",
-    "image": "http://pngimg.com/uploads/sun/sun_PNG13424.png",
+    "image": "assets/images/sun_logo.jpg",
     "planetImage": "assets/images/sun.jpg",
     "velocity": "220",
     "distance": "0",
